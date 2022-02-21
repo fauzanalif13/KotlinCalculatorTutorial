@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
     <style name="buttonRow">
         <item name="android:layout_weight">0.4</item>
         <item name="android:layout_height">0dp</item>
@@ -29,4 +38,5 @@
 
 
     </style>
+
 </resources>
